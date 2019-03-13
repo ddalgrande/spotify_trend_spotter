@@ -32,6 +32,8 @@ spotifyObject = spotipy.Spotify(auth=token)
 # if artist != "":
 #     print("Currently playing " + artist + " - " + track)
 
+import ipdb; ipdb.set_trace()
+
 # User information
 user = spotifyObject.current_user()
 displayName = user['display_name']
