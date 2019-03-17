@@ -19,8 +19,26 @@ except (AttributeError, JSONDecodeError):
 # Create our spotify object with permissions
 spotifyObject = spotipy.Spotify(auth=token)
 
+
+# Get latest 500 new releases for selected country
+
+
+# Get tracks from albums
+
+
+# Get audio analysis for each track
+
+
+# Get audio features for each track
+
+
+# Get featured playlists for country
+
+
+
 # User information
 user = spotifyObject.current_user()
 displayName = user['display_name']
 followers = user['followers']['total']
 print ('usernanme:', displayName, '\nfollowers:', followers)
+
